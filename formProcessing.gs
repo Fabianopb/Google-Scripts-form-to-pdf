@@ -1,7 +1,7 @@
 //*** Verify if there is a trigger "onFormSubmit" set up in Resources > Current project's trigger ***//
 
-//Global variables
-var SOURCE_TEMPLATE = "1F08ZphFd-KWl9q2C0FUbpBV7sLShv5aeOgkOCDPVpC0"; var CUSTOMER_SPREADSHEET = "1gwBSdFsyiYQm-_GM1TzzABTeYeyUkVhgX2L7lKKADP0"; var TARGET_FOLDER = "0B4cANm687_rHMzVocE1ERHQwUHc";
+//Global variables, replace the strings to fit your needs
+var SOURCE_TEMPLATE = "yourgoogledocstemplateid"; var CUSTOMER_SPREADSHEET = "yourspreadsheetid"; var TARGET_FOLDER = "yourtempfolderid";
 
 var WILD_CARD_INFO = ["#USERNAME", "#USERBIRTH", "#USERMAIL"];
 var WILD_CARD_FOOD = ["#P1", "#P2","#P3","#P4"]
