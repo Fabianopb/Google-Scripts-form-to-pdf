@@ -12,5 +12,6 @@ _Implementation:
 2. Create your Google Form based on the answers you have in your template.
 3. Open the Google Spreadsheet that was created along with your form and open Tools > Script editor...
 4. Paste the script from this repo and change to fit your needs
+5. Don't forget to run it once from the GoogleScripts platform for authorizing the execution (just need to be done once)
 
 And that's it! Every time someone submits an answer he or she will get an e-mail in less than one minute with a pdf attachment, ready to print.
