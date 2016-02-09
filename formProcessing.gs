@@ -69,4 +69,11 @@ function generatesTravelPlan() {
   //Delete the information from the spreadsheet
   sheet.deleteRow(lastRow);
   
+  //Erase your info from the file in my drive and send it to the trash
+  var targetBody = DocumentApp.openById(targetId).getBody();
+  for(var i = 0; i < WILD_CARD_INFO.length; i++) {
+    targetBody.replaceText(userInfo[0][i], "XXXXXXX");
+  }
+  DriveApp.getFileById(targetId).setTrashed(true);
+  
 }
