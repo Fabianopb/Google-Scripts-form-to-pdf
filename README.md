@@ -8,7 +8,7 @@ You can test it here: <a href="https://docs.google.com/forms/d/1v73wh1E8B4eMUfQB
 
 _Implementation:
 
-1. Create your Google Docs template (see the example in this repo <a href="https://docs.google.com/document/d/1F08ZphFd-KWl9q2C0FUbpBV7sLShv5aeOgkOCDPVpC0/edit?usp=sharing target="_blank"">here</a>) and fill it with the "wild cards" that will be replaced with the real info. Be careful with the keywords as the replacement function works for all the strings that matches what you are looking for!
+1. Create your Google Docs template (see the example in this repo <a href="https://docs.google.com/document/d/1F08ZphFd-KWl9q2C0FUbpBV7sLShv5aeOgkOCDPVpC0/edit?usp=sharing" target="_blank">here</a>) and fill it with the "wild cards" that will be replaced with the real info. Be careful with the keywords as the replacement function works for all the strings that matches what you are looking for!
 2. Create your Google Form based on the answers you have in your template.
 3. Open the Google Spreadsheet that was created along with your form and open Tools > Script editor...
 4. Paste the script from this repo and change to fit your needs
